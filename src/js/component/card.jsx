@@ -11,7 +11,7 @@ const Card = ({nombre, img, cientifico}) => {
           {cientifico}
         </p>
         <a href="#" className="btn btn-primary">
-          Go somewhere
+          Go somewheree
         </a>
       </div>
     </div>
@@ -22,6 +22,7 @@ Card.protoType = {
     nombre: PropTypes.string,
     img: PropTypes.string,
     cientifico: PropTypes.string
+
 };
 
 export default Card;
